@@ -1,0 +1,30 @@
+/*header-container box 1 */
+.header-container .box1{
+    background-color: #06445e;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+.header-container .box1 .contents{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.header-container .box1 .contents img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+/*header-container box 2 */
+.header-container .box2{
+    background-color: #0c7cac;
+    padding: 20px;
+    text-align: left;
+    color: #fff;
+}
+.header-container .box2 .contents{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
