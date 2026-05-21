@@ -1,79 +1,55 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.85rem;
+    margin: 0;
+    padding: 0;
+}
+
 /*resume-layout*/
 .resume-layout{
     display: flex;
     max-width: 800px;
     min-height: 297mm;
     margin: 40px auto;
-    background-color: #8b2525;
+    background-color: #f8f9fa;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-
-/*header-container */
 .header-container{
-    width: 30%;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
-/*header-container box 1 */
-.header-container .box1{
-    background-color: #06445e;
+.box{
+    flex: 1;
+    background-color: #eeeeee;
+    color: #000000;
     padding: 20px;
-    text-align: center;
-    color: #fff;
+    max-width: 240px;
 }
-.header-container .box1 .contents{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.header-container .box1 .contents img{
-    border-radius: 50%;
+.box img{
     width: 150px;
     height: 150px;
-    margin-bottom: 20px;
-    object-fit: cover;
-}
+    border-radius: 50%;
+    border: 3px solid #aaaaaa;
+    object-fit: cover;  
+    display: block;
+    margin: 0 auto 20px;
 
-/*header-container box 2 */
-.header-container .box2{
-    background-color: #0c7cac;
-    padding: 20px;
-    text-align: left;
-    color: #fff;
 }
-.header-container .box2 .contents{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
+.box h1, .box p, .box a, .box h4{
+    word-break: break-word;
+    text-align:left;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 0;
 }
-
-/*header-container box 3 */
-.header-container .box3{
-    background-color: #06445e;
-    padding: 20px;
-    text-align: left;
-    color: #fff;
+.divider{
+    background-color: #212529;
+    color: #ffffff;
+    padding: 5px 40px;
 }
-.header-container .box3 .contents{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-}
-
-/*header-container box 4 */
-.header-container .box4{
-    background-color: #0c7cac;
-    padding: 20px;
-    text-align: left;
-    color: #fff;
-}
-.header-container .box4 .contents{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-}
-
-/*body-container */
-.body-container{ 
-    flex: 1;
-    padding: 20px;
-    
+.divider h2{
+    margin: 0;
 }
