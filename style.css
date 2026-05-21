@@ -15,6 +15,8 @@ body{
     background-color: #f8f9fa;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+
+/*header*/
 .header-container{
     display: flex;
     flex-direction: column;
@@ -24,7 +26,7 @@ body{
     background-color: #eeeeee;
     color: #000000;
     padding: 20px;
-    max-width: 240px;
+    max-width: 100%;
 }
 .box img{
     width: 150px;
@@ -48,8 +50,23 @@ body{
 .divider{
     background-color: #212529;
     color: #ffffff;
-    padding: 5px 40px;
+    padding: 5px 30px;
 }
 .divider h2{
     margin: 0;
+}
+
+/*body-content*/
+.body-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.body1{
+    flex: 1;
+    padding: 40px;
+}
+.horizontal-line{
+    height: 1px;
+    background-color: #212529;
 }
