@@ -1,3 +1,25 @@
+/*for printing*/
+@media print {
+    html, body {
+        background-color: #ffffff !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+    .resume-layout {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        box-shadow: none !important;
+    }
+    @page {
+        size: auto;
+        margin: 0mm;
+    }
+    .header-container{
+        min-height: 100vh;
+    }
+}
 
 body{
     font-family: 'Roboto', sans-serif;
